@@ -1,4 +1,9 @@
 
+Template: _APP_NAME_/welcome
+Type: note
+Description: Welcome to the installer
+ Ready to start?
+
 Template: _APP_NAME_/like_debian
 Type: boolean
 Description: Do you like Debian?

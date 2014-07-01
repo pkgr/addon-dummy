@@ -3,6 +3,9 @@
 # Source debconf library.
 . /usr/share/debconf/confmodule
 
+db_input high _APP_NAME_/welcome || true
+db_go
+
 # Do you like debian?
 db_input high _APP_NAME_/like_debian || true
 db_go
