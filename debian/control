@@ -1,0 +1,13 @@
+Source: _APP_NAME_-dummy
+Section: web
+Priority: extra
+Maintainer: Packager.io <support@packager.io>
+Build-Depends: debhelper (>= 7)
+Homepage: https://packager.io
+
+Package: _APP_NAME_-dummy
+Architecture: amd64
+Pre-Depends: debconf
+Provides: _APP_NAME_-dummy
+Depends: ${misc:Depends}
+Description: Dummy addon for _APP_NAME_.
